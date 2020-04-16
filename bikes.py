@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+# This program is available for these three cities#
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -108,7 +108,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#ONLY Stations of bikes#
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -224,7 +224,7 @@ def main():
     city,month,day = get_filters().lower().
     df = load_data(city,month,day)
 
-
+    other_caractheristics (df)
     time_stats(df)
     station_stats(df)
     trip_duration_stats(df)
