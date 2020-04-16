@@ -224,7 +224,7 @@ def main():
     city,month,day = get_filters().lower().
     df = load_data(city,month,day)
 
-
+    other_caractheristics (df)
     time_stats(df)
     station_stats(df)
     trip_duration_stats(df)
