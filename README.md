@@ -5,8 +5,7 @@
 **informacion bikeshare**
 
 ### Description
-Describe what your project is about and what it does
-
+El proyecto muestra las estadísticas del uso de bicicletas compartidas en 3 ciudades de Estados Unidos (Chicago, Nueva York y Washington)
 ### Files used
 Include the files used
 
